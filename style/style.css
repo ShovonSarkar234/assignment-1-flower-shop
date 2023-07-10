@@ -12,11 +12,11 @@ body {
     max-width: 1200px;
     margin: auto;
 }
-
+/* banner-section start */
 .banner-section {
     display: flex;
     align-items: center;
-    height: 80vh;
+    height: 75vh;
     width: 50%;
 }
 
@@ -45,3 +45,202 @@ body {
     color: #000;
     background-color: yellowgreen;
 }
+
+.banner-right-side img {
+    width: 350px;
+    margin-left: 280px;
+    margin-top: 0px;
+    transform: translateY(30px);
+}
+/* banner-section end */
+
+/* featured section start */
+.text-section {
+    text-align: center;
+    margin-top: 70px;
+}
+
+.text-section h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.text-section p {
+    width: 470px;
+    margin: auto;
+}
+
+.image-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    height: 70vh;
+}
+.featured-section {
+    text-align: center;
+}
+
+.image-section h6 {
+    margin-top: 20px;
+    text-decoration: underline;
+    color: grey;
+    font-size: 15px;
+}
+
+.pink-flower1 img{
+    width: 250px;
+    background-color: #f2dee7;
+    padding: 30px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.pink-flower2 img{
+    width: 300px;
+    background-color: #d9eff1;
+    padding: 10px 0px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.pink-flower3 img {
+    width: 210px;
+    background-color: #e3ebdb;
+    padding: 8px 0px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+/* featured section end */
+
+/* support-section start */
+.support-section {
+    width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    background-color: #f4f4f4;
+    padding: 30px 60px;
+    margin-bottom: 50px;
+}
+
+.day img {
+    width: 30px;
+    margin-left: 100px;
+    margin-bottom: 15px;
+}
+
+.day p {
+    font-size: 15px;
+    margin-left: 25px;
+}
+
+.fresh img {
+    width: 30px;
+    margin-left: 100px;
+    margin-bottom: 15px;
+}
+
+.fresh p {
+    font-size: 15px;
+    margin-left: 25px;
+}
+
+.support img {
+    width: 30px;
+    margin-left: 80px;
+    margin-bottom: 15px;
+    
+}
+
+.support p {
+    font-size: 15px;
+    margin-left: 25px;
+}
+/* support-section end */
+
+/* Hot-deal section start */
+.deal {
+    height: 80vh;
+}
+
+.hot-deal {
+    display: flex;
+    align-items: center;
+}
+.left-side {
+    text-align: center;
+    margin: 120px;
+}
+
+.left-side h3 {
+    color: #272727;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.left-side p {
+    color: rgba(39, 39, 39, 0.60);
+    margin-bottom: 20px;
+}
+
+.right-side img {
+    width: 250px;
+}
+
+.btn-2 {
+    padding: 15px 40px;
+    border-radius: 5px;
+    background: #E55473;
+    border: none;
+    color: #fff;
+}
+
+.btn-2:hover {
+    color: #000;
+    background-color: yellowgreen; 
+}
+/* Hot-deal section end */
+
+/* social-meadia section start*/
+.social-meadia-text {
+    text-align: center;
+}
+
+.social-meadia-text h4 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-style: italic;
+    color: #E55473;
+}
+
+.social-meadia-text  p {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+
+.social-img img {
+    width: 200px;
+    margin: 20px;
+    padding-bottom: 100px;
+}
+
+.social-img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+}
+/* social-meadia section end*/
+
+/* input-section start */
+.input-text h2{
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: 5px;
+}
+
+.input-text p {
+    text-align: center;
+    font-size: 10px;
+}
+/* input-section end */
