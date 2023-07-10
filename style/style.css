@@ -44,6 +44,7 @@ body {
 .btn-1:hover {
     color: #000;
     background-color: yellowgreen;
+    cursor: pointer;
 }
 
 .banner-right-side img {
@@ -95,6 +96,10 @@ body {
     background: rgba(167, 33, 98, 0.15);
 }
 
+.pink-flower1 img:hover {
+    box-shadow: 6px 8px 8px red;
+}
+
 .pink-flower2 img{
     width: 300px;
     background-color: #d9eff1;
@@ -103,12 +108,20 @@ body {
     background: rgba(167, 33, 98, 0.15);
 }
 
+.pink-flower2 img:hover {
+    box-shadow: 12px 8px 8px yellowgreen;
+}
+
 .pink-flower3 img {
     width: 210px;
     background-color: #e3ebdb;
     padding: 8px 0px;
     border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
+}
+
+.pink-flower3 img:hover {
+    box-shadow: 6px 8px 8px red;
 }
 /* featured section end */
 
@@ -198,6 +211,7 @@ body {
 .btn-2:hover {
     color: #000;
     background-color: yellowgreen; 
+    cursor: pointer;
 }
 /* Hot-deal section end */
 
@@ -237,10 +251,74 @@ body {
     text-align: center;
     font-size: 35px;
     margin-bottom: 5px;
+    color: #272727;
 }
 
 .input-text p {
     text-align: center;
     font-size: 10px;
+    margin-bottom: 15px;
+}
+
+.input input{
+    width: 800px;
+    margin-left: 130px;
+    margin-bottom: 50px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.btn-3 {
+    padding: 14px 30px;
+    border-radius: 5px;
+    background: #E55473;
+    border: none;
+    color: #fff;
+}
+
+.btn-3:hover {
+    color: #000;
+    background-color: yellowgreen;
+    color: #000;
+    cursor: pointer; 
 }
 /* input-section end */
+
+/* footer-section start */
+.last-part {
+    text-align: center;
+    margin-bottom: 60px;
+    transform: translateY(60px);
+}
+
+.last-part p {
+    color: rgba(255, 255, 255, 0.90);
+    margin-bottom: 20px;
+}
+
+.logo {
+    margin-bottom: 20px;
+    color: #d9eff1;
+}
+
+.logo span {
+    color: #E55473;
+}
+
+.logo:hover {
+    color: #E55473;
+    cursor: pointer;
+}
+
+small {
+    color: gray;
+    font-size: 10px;
+}
+
+footer {
+    background-color: #000;
+    padding: 50px;
+}
+
+/* footer-section end */
+
